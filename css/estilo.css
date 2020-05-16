@@ -1,0 +1,36 @@
+body{
+  background-color: pink;
+  font-family: sans-serif;
+  
+}
+
+.menu{
+  background-color: rgb(237, 213, 231);
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.menu li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-title, .site-subtitle {
+  text-align: center;
+}
+
+.site-subtitle {
+  font-style: italic;
+}
